@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+h1 {
+  font-size: 1.8rem !important;
+}
+* {
+  font-size: 95%;
+  margin: 0;
+  padding: 0;
+  font-family: "Lalezar", system-ui;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background-image: url("../assets/bg foto polda.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(152, 145, 145, 0.75);
+  z-index: 1;
+}
+
+
+body > * {
+  position: relative;
+  z-index: 2;
+}
+
+.text-bygn {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.text-bygn2 {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.50);
+}
+.user-icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.login-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.input-cont {
+  background-color: #D9D9D9;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 350px;
+  color: white;
+  background-color: black;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #D9D9D9;
+}
+
+.title {
+  background-color: #D9D9D9;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  background-color: #D9D9D9;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputan {
+  display: flex;
+  flex-direction: column;
+}
+.inputan input {
+  width: 80%;
+}
+.inputan button {
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.submit-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.submit-cont button {
+  padding: 20px;
+  width: 120px;
+}
+
+@media (max-width: 512px) {
+  .input-cont {
+    width: 250px;
+  }
+  .login-btn {
+    width: 250px;
+  }
+  .input-cont input{
+    width: 120px;
+  }
+  .text-responsive {
+    font-size: 0.8rem;
+  }
+  .menu {
+    width: 250px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .submit-cont button {
+    padding: 20px;
+    width: 80px;
+  }
+}
