@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head> <link href="assets/LOGO TIK POLDA.png" rel="icon">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link href="styles/style.css" rel="stylesheet" />
-    <title>BID TIK POLDA MANADO</title>
+    <title>BID TIK POLDA SULUT</title>
 
     <style>
       /* Ensure the navbar items are aligned to the left on desktop */
@@ -69,7 +69,7 @@
               src="assets/LOGO TIK POLDA.png"
               alt="Kapolda"
             />
-            <h2>BID TIK POLDA MANADO</h2>
+            <h2>BID TIK POLDA SULUT</h2>
           </div>
           <div class="col-12 col-md-6 text-center text-md-start">
             <h1 class="header-title">
